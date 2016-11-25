@@ -1,0 +1,22 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "pianomoz@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+  "background": {
+      "scripts": ["page-scripts/background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/pianomoz-32.png"
+  },
+  "description": "Piano what play adn audio format",
+  "manifest_version": 2,
+  "name": "pianomoz",
+  "options_ui": {
+      "page": "pianomoz.html"
+  },
+  "permissions": ["storage"],
+  "version": "2.0.0.4"
+}

@@ -1,0 +1,200 @@
+@media screen and (min-width: 40.5em) {
+  .product-img {
+    width: 50%;
+    float: left;
+  }
+}
+
+
+#fondgene{
+  position:fixed;
+  background:#975401;
+  width:100%;
+  height:60%;
+  margin-top:10%;
+  border-radius:2%;
+}
+   
+
+.toucheblanche{
+  position:fixed;
+  height:30%;
+  width:3.4%;
+  margin-top:9%;
+  background:white;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+  transition:all 0.1s ease 0ms;
+  -o-transition:all 0.1s ease 0ms;
+  -ms-transition:all 0.1s ease 0ms;
+  -moz-transition:all 0.1s ease 0ms;
+  -webkit-transition:all 0.1s ease 0ms;
+}
+.toucheblanche:before{
+  content: "";  
+  
+  position:absolute;
+  height:43%;
+  width:130%;
+  margin-top:181px;
+  background:white;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+  transition:all 0.1s ease 0ms;
+  -o-transition:all 0.1s ease 0ms;
+  -ms-transition:all 0.1s ease 0ms;
+  -moz-transition:all 0.1s ease 0ms;
+  -webkit-transition:all 0.1s ease 0ms;
+}
+
+
+.toucheblanche:active{
+  -webkit-transform:perspective(65px) rotateX(-10deg);
+  transform:perspective(65px) rotateX(-10deg);
+  margin-top:102px;
+}
+
+
+.toucheblanche1{
+  position:fixed;
+  height:30%;
+  width:4.4%;
+  margin-top:9%;
+  background:white;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+  transition:all 0.1s ease 0ms;
+  -o-transition:all 0.1s ease 0ms;
+  -ms-transition:all 0.1s ease 0ms;
+  -moz-transition:all 0.1s ease 0ms;
+  -webkit-transition:all 0.1s ease 0ms;
+}
+.toucheblanche1:before{
+  content: "";  
+  
+  position:absolute;
+  height:43%;
+  width:100%;
+  margin-top:181px;
+  background:white;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+  transition:all 0.1s ease 0ms;
+  -o-transition:all 0.1s ease 0ms;
+  -ms-transition:all 0.1s ease 0ms;
+  -moz-transition:all 0.1s ease 0ms;
+  -webkit-transition:all 0.1s ease 0ms;
+}
+
+.toucheblanche1:active{
+  -webkit-transform:perspective(65px) rotateX(-10deg);
+  transform:perspective(65px) rotateX(-10deg);
+  margin-top:102px;
+}
+
+.toucheblanche2{
+  position:fixed;
+  height:30%;
+  width:3.4%;
+  margin-top:9%;
+  background:white;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+  transition:all 0.1s ease 0ms;
+  -o-transition:all 0.1s ease 0ms;
+  -ms-transition:all 0.1s ease 0ms;
+  -moz-transition:all 0.1s ease 0ms;
+  -webkit-transition:all 0.1s ease 0ms;
+}
+.toucheblanche2:before{
+  content: "";  
+  
+  position:absolute;
+  height:43%;
+  width:130%;
+  margin-top:181px;
+  background:white;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+  transition:all 0.1s ease 0ms;
+  -o-transition:all 0.1s ease 0ms;
+  -ms-transition:all 0.1s ease 0ms;
+  -moz-transition:all 0.1s ease 0ms;
+  -webkit-transition:all 0.1s ease 0ms;
+}
+
+.toucheblanche2:active{
+  -webkit-transform:perspective(65px) rotateX(-10deg);
+  transform:perspective(65px) rotateX(-10deg);
+  margin-top:102px;
+}
+
+.touchenoire{
+  position:fixed;
+  height:19.2%;
+  width:2.2%;
+  margin-top:9%;
+  background:black;
+  border-right:1px solid #BBB;
+  cursor:pointer;
+}
+
+.touchenoire:active{
+  -webkit-transform:perspective(150px) rotateX(-6deg);
+  transform:perspective(150px) rotateX(-6deg);
+  margin-top:102px;
+}
+
+#montre{
+  position:absolute;
+  width:150px;
+  height:150px;
+  margin-top:42%;
+  margin-left:45%;
+
+}
+
+
+
+.le1
+{
+  background-image: none;
+}
+
+.le2
+{
+  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo1.jpg);
+}
+.le3
+{
+  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo2.jpg);
+}
+.le4
+{
+  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo3.jpg);
+}
+.le5
+{
+  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo5.jpg);
+}
+.le6
+{
+  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo6.jpg);
+}
+
+
+img {
+    display: none;
+}
+
+     body{
+background-image: -webkit-linear-gradient(right top, #D60F0E 0%, #FFDD01 100%);
+}
+ 
+ .placebas{
+  position:fixed;
+
+  margin-top:59%;
+  color:#975401;
+
+}
