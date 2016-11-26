@@ -145,51 +145,12 @@
   margin-top:102px;
 }
 
-#montre{
-  position:absolute;
-  width:150px;
-  height:150px;
-  margin-top:42%;
-  margin-left:45%;
-
-}
-
-
-
-.le1
-{
-  background-image: none;
-}
-
-.le2
-{
-  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo1.jpg);
-}
-.le3
-{
-  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo2.jpg);
-}
-.le4
-{
-  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo3.jpg);
-}
-.le5
-{
-  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo5.jpg);
-}
-.le6
-{
-  background-image: url(http://www.letime.net/PianoBaul/montpellibre_logo6.jpg);
-}
-
-
-img {
-    display: none;
-}
-
      body{
 background-image: -webkit-linear-gradient(right top, #D60F0E 0%, #FFDD01 100%);
+width:100%;
 }
+
+
  
  .placebas{
   position:fixed;
@@ -198,3 +159,5 @@ background-image: -webkit-linear-gradient(right top, #D60F0E 0%, #FFDD01 100%);
   color:#975401;
 
 }
+
+

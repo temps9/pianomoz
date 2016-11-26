@@ -12,11 +12,12 @@
     "default_icon": "icons/pianomoz-32.png"
   },
   "description": "Piano what play adn audio format",
+  "homepage_url": "https://addons.mozilla.org/en-US/firefox/addon/pianomoz/",
   "manifest_version": 2,
   "name": "pianomoz",
   "options_ui": {
       "page": "pianomoz.html"
   },
   "permissions": ["storage"],
-  "version": "2.0.0.5"
+  "version": "2.0.0.6"
 }
