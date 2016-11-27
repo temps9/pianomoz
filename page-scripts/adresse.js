@@ -257,7 +257,7 @@ window.addEventListener("keydown", function (event) {
 	if(mua27>3){
         mua27 =0;
   	}
-	multitouche0(mua27);
+	multitoucheno(mua27);
    	break;
    	
     	case "1":
@@ -971,27 +971,27 @@ window.addEventListener("keydown", function (event) {
   }
   }
 
-  function multitouche0(mua27){
+  function multitoucheno(mua27){
 
   if(mua27==0){
 
-  var multi01 = document.getElementById("27wav");
-  multi01.play();
+  var multioo1 = document.getElementById("27wav");
+  multioo1.play();
   }
   else if(mua27==1){
 
-  var multi02 = document.getElementById("27awav");
-  multi02.play();
+  var multioo2 = document.getElementById("27awav");
+  multioo2.play();
   }
   else if(mua27==2){
 
-  var multi03 = document.getElementById("27bwav");
-  multi03.play();
+  var multioo3 = document.getElementById("27bwav");
+  multioo3.play();
   }
   else if(mua27==3){
 
-  var multi04 = document.getElementById("27cwav");
-  multi04.play();
+  var multioo4 = document.getElementById("27cwav");
+  multioo4.play();
   }
   }
 
@@ -1400,7 +1400,7 @@ function toucheblanche27Press(){
 	if(mua27>3){
         mua27 =0;
   	}
-	multitouche0(mua27);
+	multitoucheno(mua27);
   }
 function touchenoire28Press(){
 	mua28 = mua28 + 1;
@@ -1467,97 +1467,152 @@ function toucheblanche36Press(){
   }  
 
      
-function toucheblancheUp(){
-  document.getElementById('montre').className = 'le1';
-}
-function touchenoireUp(){
-  document.getElementById('montre').className = 'le1';
-}
-
-/**passerelle firefox 48 pour remplacer le bouton d'appel js**/
-   function load() { 
-     var cel1 = document.getElementById("b1v"); 
-     cel1.addEventListener("click", toucheblanche1Press, false);
-     var cel2 = document.getElementById("b2v"); 
-     cel2.addEventListener("click", toucheblanche3Press, false);
-     var cel3 = document.getElementById("b3v"); 
-     cel3.addEventListener("click", toucheblanche5Press, false);
-     var cel4 = document.getElementById("b4v"); 
-     cel4.addEventListener("click", toucheblanche6Press, false);
-     var cel5 = document.getElementById("b5v"); 
-     cel5.addEventListener("click", toucheblanche8Press, false);
-     var cel6 = document.getElementById("b6v"); 
-     cel6.addEventListener("click", toucheblanche10Press, false);
-     var cel7 = document.getElementById("b7v"); 
-     cel7.addEventListener("click", toucheblanche12Press, false);
-     var cel8 = document.getElementById("b8v"); 
-     cel8.addEventListener("click", toucheblanche13Press, false);
-     var cel9 = document.getElementById("b9v"); 
-     cel9.addEventListener("click", toucheblanche15Press, false);
-     var cel10 = document.getElementById("b10v"); 
-     cel10.addEventListener("click", toucheblanche17Press, false);
-     var cel11 = document.getElementById("b11v"); 
-     cel11.addEventListener("click", toucheblanche18Press, false);
-     var cel12 = document.getElementById("b12v"); 
-     cel12.addEventListener("click", toucheblanche20Press, false);
-     var cel13 = document.getElementById("b13v"); 
-     cel13.addEventListener("click", toucheblanche22Press, false);
-     var cel14 = document.getElementById("b14v"); 
-     cel14.addEventListener("click", toucheblanche24Press, false);
-     var cel15 = document.getElementById("b15v"); 
-     cel15.addEventListener("click", toucheblanche25Press, false);
-     var cel16 = document.getElementById("b16v"); 
-     cel16.addEventListener("click", toucheblanche27Press, false);
-     var cel17 = document.getElementById("b17v"); 
-     cel17.addEventListener("click", toucheblanche29Press, false);
-     var cel18 = document.getElementById("b18v"); 
-     cel18.addEventListener("click", toucheblanche30Press, false);
-     var cel19 = document.getElementById("b19v"); 
-     cel19.addEventListener("click", toucheblanche32Press, false);
-     var cel20 = document.getElementById("b20v"); 
-     cel20.addEventListener("click", toucheblanche34Press, false);
-     var cel21 = document.getElementById("b21v"); 
-     cel21.addEventListener("click", toucheblanche36Press, false);
-
-     var cel22 = document.getElementById("b22v"); 
-     cel22.addEventListener("click", touchenoire2Press, false);
-     var cel23 = document.getElementById("b23v"); 
-     cel23.addEventListener("click", touchenoire4Press, false);
-     var cel24 = document.getElementById("b24v"); 
-     cel24.addEventListener("click", touchenoire7Press, false);
-     var cel25 = document.getElementById("b25v"); 
-     cel25.addEventListener("click", touchenoire9Press, false);
-     var cel26 = document.getElementById("b26v"); 
-     cel26.addEventListener("click", touchenoire11Press, false);
-     var cel27 = document.getElementById("b27v"); 
-     cel27.addEventListener("click", touchenoire14Press, false);
-     var cel28 = document.getElementById("b28v"); 
-     cel28.addEventListener("click", touchenoire16Press, false);
-     var cel29 = document.getElementById("b29v"); 
-     cel29.addEventListener("click", touchenoire19Press, false);
-     var cel30 = document.getElementById("b30v"); 
-     cel30.addEventListener("click", touchenoire21Press, false);
-     var cel31 = document.getElementById("b31v"); 
-     cel31.addEventListener("click", touchenoire23Press, false);
-     var cel32 = document.getElementById("b32v"); 
-     cel32.addEventListener("click", touchenoire26Press, false);
-     var cel33 = document.getElementById("b33v"); 
-     cel33.addEventListener("click", touchenoire28Press, false);
-     var cel34 = document.getElementById("b34v"); 
-     cel34.addEventListener("click", touchenoire31Press, false);
-     var cel35 = document.getElementById("b35v"); 
-     cel35.addEventListener("click", touchenoire33Press, false);
-     var cel36 = document.getElementById("b36v"); 
-     cel36.addEventListener("click", touchenoire35Press, false);
-
-
-   } 
-
-
- document.addEventListener("DOMContentLoaded", function(event) {
-    load();
-  });
+document.addEventListener('DOMContentLoaded', function() {
+    var b1v = document.getElementById('b1v');
+    b1v.onclick = function() {
+        toucheblanche1Press();
+	};
+    var b2v = document.getElementById('b2v');
+    b2v.onclick = function() {
+        toucheblanche3Press();
+	};
+    var b3v = document.getElementById('b3v');
+    b3v.onclick = function() {
+        toucheblanche5Press();
+	};
+    var b4v = document.getElementById('b4v');
+    b4v.onclick = function() {
+        toucheblanche6Press();
+	};
+    var b5v = document.getElementById('b5v');
+    b5v.onclick = function() {
+        toucheblanche8Press();
+	};
+    var b6v = document.getElementById('b6v');
+    b6v.onclick = function() {
+        toucheblanche10Press();
+	};
+    var b7v = document.getElementById('b7v');
+    b7v.onclick = function() {
+        toucheblanche12Press();
+	};
+    var b8v = document.getElementById('b8v');
+    b8v.onclick = function() {
+        toucheblanche13Press();
+	};
+    var b9v = document.getElementById('b9v');
+    b9v.onclick = function() {
+        toucheblanche15Press();
+	};
+    var b10v = document.getElementById('b10v');
+    b10v.onclick = function() {
+        toucheblanche17Press();
+	};
+    var b11v = document.getElementById('b11v');
+    b11v.onclick = function() {
+        toucheblanche18Press();
+	};
+    var b12v = document.getElementById('b12v');
+    b12v.onclick = function() {
+        toucheblanche20Press();
+	};
+    var b13v = document.getElementById('b13v');
+    b13v.onclick = function() {
+        toucheblanche22Press();
+	};
+    var b14v = document.getElementById('b14v');
+    b14v.onclick = function() {
+        toucheblanche24Press();
+	};
+    var b15v = document.getElementById('b15v');
+    b15v.onclick = function() {
+        toucheblanche25Press();
+	};
+    var b16v = document.getElementById('b16v');
+    b16v.onclick = function() {
+        toucheblanche27Press();
+	};
+    var b17v = document.getElementById('b17v');
+    b17v.onclick = function() {
+        toucheblanche29Press();
+	};
+    var b18v = document.getElementById('b18v');
+    b18v.onclick = function() {
+        toucheblanche30Press();
+	};
+    var b19v = document.getElementById('b19v');
+    b19v.onclick = function() {
+        toucheblanche32Press();
+	};
+    var b20v = document.getElementById('b20v');
+    b20v.onclick = function() {
+        toucheblanche34Press();
+	};
+    var b21v = document.getElementById('b21v');
+    b21v.onclick = function() {
+        toucheblanche36Press();
+	};
 
 
+	var b22v = document.getElementById("b22v"); 
+	b22v.onclick = function() {
+	touchenoire2Press();
+	};
+	var b23v = document.getElementById("b23v"); 
+	b23v.onclick = function() {
+	touchenoire4Press();
+	};
+	var b24v = document.getElementById("b24v"); 
+	b24v.onclick = function() {
+	touchenoire7Press();
+	};
+	var b25v = document.getElementById("b25v"); 
+	b25v.onclick = function() {
+	touchenoire9Press();
+	};
+	var b26v = document.getElementById("b26v"); 
+	b26v.onclick = function() {
+	touchenoire11Press();
+	};
+	var b27v = document.getElementById("b27v"); 
+	b27v.onclick = function() {
+	touchenoire14Press();
+	};
+	var b28v = document.getElementById("b28v"); 
+	b28v.onclick = function() {
+	touchenoire16Press();
+	};
+	var b29v = document.getElementById("b29v"); 
+	b29v.onclick = function() {
+	touchenoire19Press();
+	};
+	var b30v = document.getElementById("b30v"); 
+	b30v.onclick = function() {
+	touchenoire21Press();
+	};
+	var b31v = document.getElementById("b31v"); 
+	b31v.onclick = function() {
+	touchenoire23Press();
+	};
+	var b32v = document.getElementById("b32v"); 
+	b32v.onclick = function() {
+	touchenoire26Press();
+	};
+	var b33v = document.getElementById("b33v"); 
+	b33v.onclick = function() {
+	touchenoire28Press();
+	};
+	var b34v = document.getElementById("b34v"); 
+	b34v.onclick = function() {
+	touchenoire31Press();
+	};
+	var b35v = document.getElementById("b35v"); 
+	b35v.onclick = function() {
+	touchenoire33Press();
+	};
+	var b36v = document.getElementById("b36v"); 
+	b36v.onclick = function() {
+	touchenoire35Press();
+	};
 
-   
+});
