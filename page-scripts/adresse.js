@@ -343,7 +343,155 @@ window.addEventListener("keydown", function (event) {
 }, true);
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    var b1v = document.getElementById('b1v');
+    b1v.onclick = function() {
+        toucheblanche1Press();
+	};
+    var b2v = document.getElementById('b2v');
+    b2v.onclick = function() {
+        toucheblanche3Press();
+	};
+    var b3v = document.getElementById('b3v');
+    b3v.onclick = function() {
+        toucheblanche5Press();
+	};
+    var b4v = document.getElementById('b4v');
+    b4v.onclick = function() {
+        toucheblanche6Press();
+	};
+    var b5v = document.getElementById('b5v');
+    b5v.onclick = function() {
+        toucheblanche8Press();
+	};
+    var b6v = document.getElementById('b6v');
+    b6v.onclick = function() {
+        toucheblanche10Press();
+	};
+    var b7v = document.getElementById('b7v');
+    b7v.onclick = function() {
+        toucheblanche12Press();
+	};
+    var b8v = document.getElementById('b8v');
+    b8v.onclick = function() {
+        toucheblanche13Press();
+	};
+    var b9v = document.getElementById('b9v');
+    b9v.onclick = function() {
+        toucheblanche15Press();
+	};
+    var b10v = document.getElementById('b10v');
+    b10v.onclick = function() {
+        toucheblanche17Press();
+	};
+    var b11v = document.getElementById('b11v');
+    b11v.onclick = function() {
+        toucheblanche18Press();
+	};
+    var b12v = document.getElementById('b12v');
+    b12v.onclick = function() {
+        toucheblanche20Press();
+	};
+    var b13v = document.getElementById('b13v');
+    b13v.onclick = function() {
+        toucheblanche22Press();
+	};
+    var b14v = document.getElementById('b14v');
+    b14v.onclick = function() {
+        toucheblanche24Press();
+	};
+    var b15v = document.getElementById('b15v');
+    b15v.onclick = function() {
+        toucheblanche25Press();
+	};
+    var b16v = document.getElementById('b16v');
+    b16v.onclick = function() {
+        toucheblanche27Press();
+	};
+    var b17v = document.getElementById('b17v');
+    b17v.onclick = function() {
+        toucheblanche29Press();
+	};
+    var b18v = document.getElementById('b18v');
+    b18v.onclick = function() {
+        toucheblanche30Press();
+	};
+    var b19v = document.getElementById('b19v');
+    b19v.onclick = function() {
+        toucheblanche32Press();
+	};
+    var b20v = document.getElementById('b20v');
+    b20v.onclick = function() {
+        toucheblanche34Press();
+	};
+    var b21v = document.getElementById('b21v');
+    b21v.onclick = function() {
+        toucheblanche36Press();
+	};
 
+
+	var b22v = document.getElementById("b22v"); 
+	b22v.onclick = function() {
+	touchenoire2Press();
+	};
+	var b23v = document.getElementById("b23v"); 
+	b23v.onclick = function() {
+	touchenoire4Press();
+	};
+	var b24v = document.getElementById("b24v"); 
+	b24v.onclick = function() {
+	touchenoire7Press();
+	};
+	var b25v = document.getElementById("b25v"); 
+	b25v.onclick = function() {
+	touchenoire9Press();
+	};
+	var b26v = document.getElementById("b26v"); 
+	b26v.onclick = function() {
+	touchenoire11Press();
+	};
+	var b27v = document.getElementById("b27v"); 
+	b27v.onclick = function() {
+	touchenoire14Press();
+	};
+	var b28v = document.getElementById("b28v"); 
+	b28v.onclick = function() {
+	touchenoire16Press();
+	};
+	var b29v = document.getElementById("b29v"); 
+	b29v.onclick = function() {
+	touchenoire19Press();
+	};
+	var b30v = document.getElementById("b30v"); 
+	b30v.onclick = function() {
+	touchenoire21Press();
+	};
+	var b31v = document.getElementById("b31v"); 
+	b31v.onclick = function() {
+	touchenoire23Press();
+	};
+	var b32v = document.getElementById("b32v"); 
+	b32v.onclick = function() {
+	touchenoire26Press();
+	};
+	var b33v = document.getElementById("b33v"); 
+	b33v.onclick = function() {
+	touchenoire28Press();
+	};
+	var b34v = document.getElementById("b34v"); 
+	b34v.onclick = function() {
+	touchenoire31Press();
+	};
+	var b35v = document.getElementById("b35v"); 
+	b35v.onclick = function() {
+	touchenoire33Press();
+	};
+	var b36v = document.getElementById("b36v"); 
+	b36v.onclick = function() {
+	touchenoire35Press();
+	};
+
+});
   
   function multitouchea(mua1){
 
@@ -1467,152 +1615,4 @@ function toucheblanche36Press(){
   }  
 
      
-document.addEventListener('DOMContentLoaded', function() {
-    var b1v = document.getElementById('b1v');
-    b1v.onclick = function() {
-        toucheblanche1Press();
-	};
-    var b2v = document.getElementById('b2v');
-    b2v.onclick = function() {
-        toucheblanche3Press();
-	};
-    var b3v = document.getElementById('b3v');
-    b3v.onclick = function() {
-        toucheblanche5Press();
-	};
-    var b4v = document.getElementById('b4v');
-    b4v.onclick = function() {
-        toucheblanche6Press();
-	};
-    var b5v = document.getElementById('b5v');
-    b5v.onclick = function() {
-        toucheblanche8Press();
-	};
-    var b6v = document.getElementById('b6v');
-    b6v.onclick = function() {
-        toucheblanche10Press();
-	};
-    var b7v = document.getElementById('b7v');
-    b7v.onclick = function() {
-        toucheblanche12Press();
-	};
-    var b8v = document.getElementById('b8v');
-    b8v.onclick = function() {
-        toucheblanche13Press();
-	};
-    var b9v = document.getElementById('b9v');
-    b9v.onclick = function() {
-        toucheblanche15Press();
-	};
-    var b10v = document.getElementById('b10v');
-    b10v.onclick = function() {
-        toucheblanche17Press();
-	};
-    var b11v = document.getElementById('b11v');
-    b11v.onclick = function() {
-        toucheblanche18Press();
-	};
-    var b12v = document.getElementById('b12v');
-    b12v.onclick = function() {
-        toucheblanche20Press();
-	};
-    var b13v = document.getElementById('b13v');
-    b13v.onclick = function() {
-        toucheblanche22Press();
-	};
-    var b14v = document.getElementById('b14v');
-    b14v.onclick = function() {
-        toucheblanche24Press();
-	};
-    var b15v = document.getElementById('b15v');
-    b15v.onclick = function() {
-        toucheblanche25Press();
-	};
-    var b16v = document.getElementById('b16v');
-    b16v.onclick = function() {
-        toucheblanche27Press();
-	};
-    var b17v = document.getElementById('b17v');
-    b17v.onclick = function() {
-        toucheblanche29Press();
-	};
-    var b18v = document.getElementById('b18v');
-    b18v.onclick = function() {
-        toucheblanche30Press();
-	};
-    var b19v = document.getElementById('b19v');
-    b19v.onclick = function() {
-        toucheblanche32Press();
-	};
-    var b20v = document.getElementById('b20v');
-    b20v.onclick = function() {
-        toucheblanche34Press();
-	};
-    var b21v = document.getElementById('b21v');
-    b21v.onclick = function() {
-        toucheblanche36Press();
-	};
 
-
-	var b22v = document.getElementById("b22v"); 
-	b22v.onclick = function() {
-	touchenoire2Press();
-	};
-	var b23v = document.getElementById("b23v"); 
-	b23v.onclick = function() {
-	touchenoire4Press();
-	};
-	var b24v = document.getElementById("b24v"); 
-	b24v.onclick = function() {
-	touchenoire7Press();
-	};
-	var b25v = document.getElementById("b25v"); 
-	b25v.onclick = function() {
-	touchenoire9Press();
-	};
-	var b26v = document.getElementById("b26v"); 
-	b26v.onclick = function() {
-	touchenoire11Press();
-	};
-	var b27v = document.getElementById("b27v"); 
-	b27v.onclick = function() {
-	touchenoire14Press();
-	};
-	var b28v = document.getElementById("b28v"); 
-	b28v.onclick = function() {
-	touchenoire16Press();
-	};
-	var b29v = document.getElementById("b29v"); 
-	b29v.onclick = function() {
-	touchenoire19Press();
-	};
-	var b30v = document.getElementById("b30v"); 
-	b30v.onclick = function() {
-	touchenoire21Press();
-	};
-	var b31v = document.getElementById("b31v"); 
-	b31v.onclick = function() {
-	touchenoire23Press();
-	};
-	var b32v = document.getElementById("b32v"); 
-	b32v.onclick = function() {
-	touchenoire26Press();
-	};
-	var b33v = document.getElementById("b33v"); 
-	b33v.onclick = function() {
-	touchenoire28Press();
-	};
-	var b34v = document.getElementById("b34v"); 
-	b34v.onclick = function() {
-	touchenoire31Press();
-	};
-	var b35v = document.getElementById("b35v"); 
-	b35v.onclick = function() {
-	touchenoire33Press();
-	};
-	var b36v = document.getElementById("b36v"); 
-	b36v.onclick = function() {
-	touchenoire35Press();
-	};
-
-});
