@@ -50,9 +50,9 @@
 
 
 .toucheblanche:active{
-  -webkit-transform:perspective(65px) rotateX(-10deg);
-  transform:perspective(65px) rotateX(-10deg);
-  margin-top:102px;
+  -webkit-transform:perspective(65px) rotateX(-2deg);
+  transform:perspective(65px) rotateX(-2deg);
+margin-top:8.9%;
 }
 
 
@@ -88,9 +88,9 @@
 }
 
 .toucheblanche1:active{
-  -webkit-transform:perspective(65px) rotateX(-10deg);
-  transform:perspective(65px) rotateX(-10deg);
-  margin-top:102px;
+  -webkit-transform:perspective(65px) rotateX(-2deg);
+  transform:perspective(65px) rotateX(-2deg);
+margin-top:8.9%;
 }
 
 .toucheblanche2{
@@ -125,9 +125,9 @@
 }
 
 .toucheblanche2:active{
-  -webkit-transform:perspective(65px) rotateX(-10deg);
-  transform:perspective(65px) rotateX(-10deg);
-  margin-top:102px;
+  -webkit-transform:perspective(65px) rotateX(-2deg);
+  transform:perspective(65px) rotateX(-2deg);
+  margin-top:8.9%;
 }
 
 .touchenoire{
@@ -143,7 +143,7 @@
 .touchenoire:active{
   -webkit-transform:perspective(150px) rotateX(-6deg);
   transform:perspective(150px) rotateX(-6deg);
-  margin-top:102px;
+  margin-top:8.9%;
 }
 
      body{

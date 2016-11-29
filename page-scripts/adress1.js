@@ -340,7 +340,121 @@ window.addEventListener("keydown", function (event) {
 }, true);
 
 
+document.addEventListener('DOMContentLoaded', function() {
 
+document.getElementById('b1v').addEventListener("click", function() {
+toucheblanche1Press();
+});
+document.getElementById('b2v').addEventListener("click", function() {
+toucheblanche3Press();
+});
+document.getElementById('b3v').addEventListener("click", function() {
+toucheblanche5Press();
+});
+document.getElementById('b4v').addEventListener("click", function() {
+toucheblanche6Press();
+});
+document.getElementById('b5v').addEventListener("click", function() {
+toucheblanche8Press();
+});
+document.getElementById('b6v').addEventListener("click", function() {
+toucheblanche10Press();
+});
+document.getElementById('b7v').addEventListener("click", function() {
+toucheblanche12Press();
+});
+document.getElementById('b8v').addEventListener("click", function() {
+toucheblanche13Press();
+});
+document.getElementById('b9v').addEventListener("click", function() {
+toucheblanche15Press();
+});
+document.getElementById('b10v').addEventListener("click", function() {
+toucheblanche17Press();
+});
+document.getElementById('b11v').addEventListener("click", function() {
+toucheblanche18Press();
+});
+document.getElementById('b12v').addEventListener("click", function() {
+toucheblanche20Press();
+});
+document.getElementById('b13v').addEventListener("click", function() {
+toucheblanche22Press();
+});
+document.getElementById('b14v').addEventListener("click", function() {
+toucheblanche24Press();
+});
+document.getElementById('b15v').addEventListener("click", function() {
+toucheblanche25Press();
+});
+document.getElementById('b16v').addEventListener("click", function() {
+toucheblanche27Press();
+});
+document.getElementById('b17v').addEventListener("click", function() {
+toucheblanche29Press();
+});
+document.getElementById('b18v').addEventListener("click", function() {
+toucheblanche30Press();
+});
+document.getElementById('b19v').addEventListener("click", function() {
+toucheblanche32Press();
+});
+document.getElementById('b20v').addEventListener("click", function() {
+toucheblanche34Press();
+});
+document.getElementById('b21v').addEventListener("click", function() {
+toucheblanche36Press();
+});
+
+    document.getElementById('b22v').addEventListener("click", function() {
+    touchenoire2Press();
+    });
+    document.getElementById('b23v').addEventListener("click", function() {
+    touchenoire4Press();
+    });
+    document.getElementById('b24v').addEventListener("click", function() {
+    touchenoire7Press();
+    });
+    document.getElementById('b25v').addEventListener("click", function() {
+    touchenoire9Press();
+    });
+    document.getElementById('b26v').addEventListener("click", function() {
+    touchenoire11Press();
+    });
+    document.getElementById('b27v').addEventListener("click", function() {
+    touchenoire14Press();
+    });
+    document.getElementById('b28v').addEventListener("click", function() {
+    touchenoire16Press();
+    });
+    document.getElementById('b29v').addEventListener("click", function() {
+    touchenoire19Press();
+    });
+    document.getElementById('b30v').addEventListener("click", function() {
+    touchenoire21Press();
+    });
+    document.getElementById('b31v').addEventListener("click", function() {
+    touchenoire23Press();
+    });
+    document.getElementById('b32v').addEventListener("click", function() {
+    touchenoire26Press();
+    });
+    document.getElementById('b33v').addEventListener("click", function() {
+    touchenoire28Press();
+    });
+    document.getElementById('b34v').addEventListener("click", function() {
+    touchenoire31Press();
+    });
+    document.getElementById('b35v').addEventListener("click", function() {
+    touchenoire33Press();
+    });
+    document.getElementById('b36v').addEventListener("click", function() {
+    touchenoire35Press();
+    });
+
+
+
+});
   
   function multitouchea(mua1){
 
@@ -1471,90 +1585,4 @@ function touchenoireUp(){
   document.getElementById('montre').className = 'le1';
 }
 
-/**passerelle firefox 48 pour remplacer le bouton d'appel js**/
-   function load() { 
-     var cel1 = document.getElementById("ba8v"); 
-     cel1.addEventListener("click", toucheblanche8Press, false);
-     var cel2 = document.getElementById("ba9v"); 
-     cel2.addEventListener("click", touchenoire9Press, false);
-     var cel3 = document.getElementById("b3v"); 
-     cel3.addEventListener("click", toucheblanche5Press, false);
-     var cel4 = document.getElementById("b4v"); 
-     cel4.addEventListener("click", toucheblanche6Press, false);
-     var cel5 = document.getElementById("b5v"); 
-     cel5.addEventListener("click", toucheblanche8Press, false);
-     var cel6 = document.getElementById("b6v"); 
-     cel6.addEventListener("click", toucheblanche10Press, false);
-     var cel7 = document.getElementById("b7v"); 
-     cel7.addEventListener("click", toucheblanche12Press, false);
-     var cel8 = document.getElementById("b8v"); 
-     cel8.addEventListener("click", toucheblanche13Press, false);
-     var cel9 = document.getElementById("b9v"); 
-     cel9.addEventListener("click", toucheblanche15Press, false);
-     var cel10 = document.getElementById("b10v"); 
-     cel10.addEventListener("click", toucheblanche17Press, false);
-     var cel11 = document.getElementById("b11v"); 
-     cel11.addEventListener("click", toucheblanche18Press, false);
-     var cel12 = document.getElementById("b12v"); 
-     cel12.addEventListener("click", toucheblanche20Press, false);
-     var cel13 = document.getElementById("b13v"); 
-     cel13.addEventListener("click", toucheblanche22Press, false);
-     var cel14 = document.getElementById("b14v"); 
-     cel14.addEventListener("click", toucheblanche24Press, false);
-     var cel15 = document.getElementById("b15v"); 
-     cel15.addEventListener("click", toucheblanche25Press, false);
-     var cel16 = document.getElementById("b16v"); 
-     cel16.addEventListener("click", toucheblanche27Press, false);
-     var cel17 = document.getElementById("b17v"); 
-     cel17.addEventListener("click", toucheblanche29Press, false);
-     var cel18 = document.getElementById("b18v"); 
-     cel18.addEventListener("click", toucheblanche30Press, false);
-     var cel19 = document.getElementById("b19v"); 
-     cel19.addEventListener("click", toucheblanche32Press, false);
-     var cel20 = document.getElementById("b20v"); 
-     cel20.addEventListener("click", toucheblanche34Press, false);
-     var cel21 = document.getElementById("b21v"); 
-     cel21.addEventListener("click", toucheblanche36Press, false);
-
-     var cel22 = document.getElementById("b22v"); 
-     cel22.addEventListener("click", touchenoire2Press, false);
-     var cel23 = document.getElementById("b23v"); 
-     cel23.addEventListener("click", touchenoire4Press, false);
-     var cel24 = document.getElementById("b24v"); 
-     cel24.addEventListener("click", touchenoire7Press, false);
-     var cel25 = document.getElementById("b25v"); 
-     cel25.addEventListener("click", touchenoire9Press, false);
-     var cel26 = document.getElementById("b26v"); 
-     cel26.addEventListener("click", touchenoire11Press, false);
-     var cel27 = document.getElementById("b27v"); 
-     cel27.addEventListener("click", touchenoire14Press, false);
-     var cel28 = document.getElementById("b28v"); 
-     cel28.addEventListener("click", touchenoire16Press, false);
-     var cel29 = document.getElementById("ba10v"); 
-     cel29.addEventListener("click", toucheblanche10Press, false);
-     var cel30 = document.getElementById("ba11v"); 
-     cel30.addEventListener("click", touchenoire11Press, false);
-     var cel31 = document.getElementById("ba12v"); 
-     cel31.addEventListener("click", toucheblanche12Press, false);
-     var cel32 = document.getElementById("ba13v"); 
-     cel32.addEventListener("click", touchenoire26Press, false);
-     var cel33 = document.getElementById("ba14v"); 
-     cel33.addEventListener("click", touchenoire28Press, false);
-     var cel34 = document.getElementById("ba15v"); 
-     cel34.addEventListener("click", touchenoire31Press, false);
-     var cel35 = document.getElementById("ba16v"); 
-     cel35.addEventListener("click", touchenoire33Press, false);
-     var cel36 = document.getElementById("ba20v"); 
-     cel36.addEventListener("click", touchenoire35Press, false);
-
-
-   } 
-
-
- document.addEventListener("DOMContentLoaded", function(event) {
-    load();
-  });
-
-
-
-   
+  
